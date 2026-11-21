@@ -1,0 +1,45 @@
+:root {
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-reading: 'Literata', 'Georgia', serif;
+  --font-ui: 'Sora', 'Segoe UI', sans-serif;
+
+  --ink: #1a2f3a;
+  --ink-soft: #2d4e5c;
+  --ink-muted: #4a6570;
+  --ink-faint: #7a9199;
+  --accent: #2a6f6f;
+  --line: rgba(45, 78, 92, 0.16);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+  font-family: var(--font-ui);
+  color: var(--ink);
+  background: #eef3f1;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+button,
+input {
+  font: inherit;
+}
