@@ -1,4 +1,11 @@
-import { useMemo, useState, useEffect } from 'react'
+import {
+  useMemo,
+  useState,
+  useEffect,
+  useCallback,
+  type AnchorHTMLAttributes,
+  type ReactNode,
+} from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { loadTopics, type Topic } from './topics'
@@ -6,8 +13,21 @@ import './App.css'
 
 type View = 'home' | 'topic'
 
+/** Resolve markdown href like "capello.md" or "./capello.md" to a topic id. */
+function topicIdFromHref(href: string | undefined): string | null {
+  if (!href) return null
+  if (/^(https?:|mailto:|tel:|#)/i.test(href)) return null
+  const clean = href.split(/[?#]/)[0]?.replace(/^\.\//, '') ?? ''
+  if (!clean.endsWith('.md')) return null
+  const file = clean.split('/').pop() ?? ''
+  const id = file.replace(/\.md$/i, '')
+  if (!id || id === 'README' || id === 'project-context') return null
+  return id
+}
+
 function App() {
   const topics = useMemo(() => loadTopics(), [])
+  const topicIds = useMemo(() => new Set(topics.map((t) => t.id)), [topics])
   const [view, setView] = useState<View>('home')
   const [activeId, setActiveId] = useState<string | null>(null)
   const [query, setQuery] = useState('')
@@ -35,15 +55,56 @@ function App() {
     window.scrollTo(0, 0)
   }, [view, activeId])
 
-  function openTopic(id: string) {
+  const openTopic = useCallback((id: string) => {
     setActiveId(id)
     setView('topic')
-  }
+  }, [])
 
   function goHome() {
     setView('home')
     setActiveId(null)
   }
+
+  const markdownComponents = useMemo(
+    () => ({
+      a: ({
+        href,
+        children,
+        ...rest
+      }: AnchorHTMLAttributes<HTMLAnchorElement> & {
+        children?: ReactNode
+      }) => {
+        const topicId = topicIdFromHref(href)
+        if (topicId && topicIds.has(topicId)) {
+          return (
+            <a
+              {...rest}
+              href={`#${topicId}`}
+              onClick={(e) => {
+                e.preventDefault()
+                openTopic(topicId)
+              }}
+            >
+              {children}
+            </a>
+          )
+        }
+        if (topicId || (href && href.endsWith('.md'))) {
+          return (
+            <span className="md-link-unavailable" title="Dispensa non disponibile nell’app">
+              {children}
+            </span>
+          )
+        }
+        return (
+          <a {...rest} href={href} target="_blank" rel="noreferrer">
+            {children}
+          </a>
+        )
+      },
+    }),
+    [openTopic, topicIds],
+  )
 
   return (
     <div className="app-shell">
@@ -128,7 +189,10 @@ function App() {
           </header>
 
           <article className="prose">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={markdownComponents}
+            >
               {active.body}
             </ReactMarkdown>
           </article>

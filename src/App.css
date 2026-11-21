@@ -343,6 +343,25 @@
   color: inherit;
 }
 
+.prose a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+
+.prose a:hover,
+.prose a:focus-visible {
+  color: var(--ink);
+}
+
+.prose .md-link-unavailable {
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: default;
+}
+
 .prose blockquote {
   margin: 0.9rem 0;
   padding: 0.35rem 0 0.35rem 0.95rem;

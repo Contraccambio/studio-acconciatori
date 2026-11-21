@@ -61,12 +61,12 @@ Consiglio: non studiare solo “colore” o solo “taglio”. La diagnosi e l�
 
 ## Percorso di studio suggerito (ordine)
 
-1. `capello.md` → `anatomia-dermatologia.md` → `tricologia-diagnosi.md`  
-2. `chimica-cosmetologia.md` → `shampoo.md` → `balsamo.md`  
-3. `tinta.md` → `trattamenti-avanzati.md`  
-4. `taglio-acconciatura.md` → `piega.md`  
-5. `consulenza-immagine.md`  
-6. `igiene-sicurezza.md` → `gestione-normativa.md`  
+1. [capello.md](capello.md) → [anatomia-dermatologia.md](anatomia-dermatologia.md) → [tricologia-diagnosi.md](tricologia-diagnosi.md)  
+2. [chimica-cosmetologia.md](chimica-cosmetologia.md) → [shampoo.md](shampoo.md) → [balsamo.md](balsamo.md)  
+3. [tinta.md](tinta.md) → [trattamenti-avanzati.md](trattamenti-avanzati.md)  
+4. [taglio-acconciatura.md](taglio-acconciatura.md) → [piega.md](piega.md)  
+5. [consulenza-immagine.md](consulenza-immagine.md)  
+6. [igiene-sicurezza.md](igiene-sicurezza.md) → [gestione-normativa.md](gestione-normativa.md)  
 
 ---
 
