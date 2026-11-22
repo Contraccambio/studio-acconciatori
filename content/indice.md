@@ -1,6 +1,6 @@
 # Indice delle dispense — Scuola acconciatori
 
-Appunti di teoria (~600 ore). Lingua: italiano. Tono: appunti snelli (frasi brevi, elenchi).
+Appunti di teoria (~600 ore). Lingua: italiano. Tono: appunti con sostanza (non solo schemi scarichi).
 
 Ogni capitolo segue lo scheletro: **Cos'è → Perché → Come → Errori → Termini → Mini ripasso**.
 
@@ -8,14 +8,37 @@ Ogni capitolo segue lo scheletro: **Cos'è → Perché → Come → Errori → T
 
 ## Come studiare con queste dispense
 
-1. **Prima lettura veloce** del capitolo (capisci la mappa).  
-2. **Seconda lettura** con evidenziatore solo su termini e passi.  
-3. Chiudi il file e **rispondi al mini ripasso** a voce o su foglio.  
-4. Confronta con le risposte in fondo.  
-5. Collega i capitoli: es. prima di tinta rileggi capello + tricologia + chimica.  
-6. In laboratorio/stage: usa le checklist (diagnosi, igiene, sicurezza calore) come promemoria operativo.
+Le dispense sono pensate per essere **ripassate più volte**, non lette una volta come un romanzo. Ogni capitolo ha più strati: idea centrale, perché conta in salone, procedimento, errori, lessico, domande.
 
-Consiglio: non studiare solo “colore” o solo “taglio”. La diagnosi e l’igiene tornano sempre.
+### Metodo in profondità (consigliato)
+
+1. **Prima lettura a mappa** (10–15 min): scorri titoli e tabelle, capisci cosa c’è dentro senza fermarti su ogni dettaglio.  
+2. **Seconda lettura attiva**: evidenzia solo **termini**, **passi numerati** e **regole d’oro** (stop/rinvio, DPI, diagnosi). Annota a margine un esempio reale di salone.  
+3. **Chiudi il file** e rispondi al **mini ripasso** a voce o su foglio — prima senza guardare le risposte.  
+4. Confronta con le risposte in fondo: ciò che hai sbagliato diventa flashcard / elenco “da non dimenticare”.  
+5. **Collega i capitoli** (studio a rete, non a silos):  
+   - prima di tinta/decolorazione → [capello.md](capello.md) + [tricologia-diagnosi.md](tricologia-diagnosi.md) + [chimica-cosmetologia.md](chimica-cosmetologia.md) + [anatomia-dermatologia.md](anatomia-dermatologia.md)  
+   - prima di lab → [igiene-sicurezza.md](igiene-sicurezza.md)  
+   - prima di parlare di prezzi/apertura → [gestione-normativa.md](gestione-normativa.md) (quadro nazionale + verifica regole della tua Regione)  
+6. **Traduci in gesto**: in laboratorio/stage usa le checklist (diagnosi, igiene, sicurezza calore/chimica) come promemoria operativo. Se non sai spiegarlo a un collega in 60 secondi, non è ancora tuo.  
+7. **Simula il cliente**: prendi un caso (cute irritata, fibra porosa, richiesta platino, foto influencer) e attraversa consulenza → limiti → proposta → home care.  
+8. **Ripasso distanziato**: dopo 2–3 giorni rifai solo mini ripasso + termini; dopo una settimana rivaluta gli Errori comuni.
+
+### Cosa studiare “in più” quando il capitolo è denso
+
+- Riscrivi con parole tue la sequenza **Come** (max mezza pagina).  
+- Elenca 3 controindicazioni e 3 errori tipici a memoria.  
+- Collega almeno **due** file diversi allo stesso servizio (es. permanente = chimica + diagnosi + igiene).  
+- Per la normativa: impara i **concetti** (L. 174/2005, impresa, sicurezza lavoro, privacy); i dettagli regionali si verificano sul territorio, non si inventano.  
+- Per consulenza/armocromia: esercitati con script di domande e un “no tecnico” completo.  
+- Per trattamenti avanzati: ripassa sempre sicurezza + processo, non solo il “effetto finale”.
+
+### Consigli pratici
+
+- Non studiare solo “colore” o solo “taglio”: diagnosi e igiene tornano sempre.  
+- Meglio un capitolo capito e collegato che cinque letti in diagonale.  
+- In dubbio su cute/patologie: in salone si **orienta e si rinvia**, non si fa il medico.  
+- Usa l’indice qui sotto come mappa, e il percorso numerato come ordine di prima passata.
 
 ---
 
@@ -61,12 +84,14 @@ Consiglio: non studiare solo “colore” o solo “taglio”. La diagnosi e l�
 
 ## Percorso di studio suggerito (ordine)
 
-1. `capello.md` → `anatomia-dermatologia.md` → `tricologia-diagnosi.md`  
-2. `chimica-cosmetologia.md` → `shampoo.md` → `balsamo.md`  
-3. `tinta.md` → `trattamenti-avanzati.md`  
-4. `taglio-acconciatura.md` → `piega.md`  
-5. `consulenza-immagine.md`  
-6. `igiene-sicurezza.md` → `gestione-normativa.md`  
+1. [capello.md](capello.md) → [anatomia-dermatologia.md](anatomia-dermatologia.md) → [tricologia-diagnosi.md](tricologia-diagnosi.md)  
+2. [chimica-cosmetologia.md](chimica-cosmetologia.md) → [shampoo.md](shampoo.md) → [balsamo.md](balsamo.md)  
+3. [tinta.md](tinta.md) → [trattamenti-avanzati.md](trattamenti-avanzati.md)  
+4. [taglio-acconciatura.md](taglio-acconciatura.md) → [piega.md](piega.md)  
+5. [consulenza-immagine.md](consulenza-immagine.md)  
+6. [igiene-sicurezza.md](igiene-sicurezza.md) → [gestione-normativa.md](gestione-normativa.md)  
+
+Suggerimento: dopo il percorso lineare, rifai un giro “per servizio” (es. solo ciò che serve a decolorazione + consulenza + igiene).
 
 ---
 

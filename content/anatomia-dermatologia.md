@@ -222,6 +222,45 @@ Cute integra, niente ferite, solo squame.
 
 ---
 
+
+## Collegamenti operativi (ripasso applicato)
+
+Prima di tinta / decolorazione / permanente, questa dispensa risponde a tre domande rapide:
+
+1. La cute è **integra** sulle zone di lavoro?
+2. Il cliente ha **sintomi** (prurito, bruciore, dolore) che sconsigliano chimica?
+3. Sto confondendo un problema di **cute** con un problema di **fibra**?
+
+Se la risposta a 1 è no, o a 2 è sì importante, o a 3 è sì → rivedi il piano di servizio. Non “aggiungere balsamo” e sperare.
+
+### Cosa dire in 20 secondi (modelli)
+
+- Cute lesa: «Oggi sulla zona non applico colore/decolorazione: c’è cute non integra. Meglio far valutare e tornare quando è a posto. Posso proporti un’alternativa senza chimica.»
+- Cute sensibile: «Procediamo con un protocollo più delicato / tempi controllati; se senti bruciore forte mi fermi subito.»
+- Sospetto medico: «Quello che vedo merita un parere sanitario: io non faccio diagnosi e non posso trattarlo come un problema da shampoo.»
+
+### Tabella lampo cute ↔ servizio
+
+| Situazione | Shampoo delicato | Tinta | Decolorazione | Permanente | Extension |
+|------------|------------------|-------|--------------|------------|-----------|
+| Cute sana | ok | ok* | ok* | ok* | ok* |
+| Cute sensibile | ok / delicato | cautela | spesso no / rinvio | cautela | cautela trazione |
+| Cute lesa | valuta | no zona | no | no | no se dolore/lesioni |
+| Parasitosi sospetta | stop | stop | stop | stop | stop |
+
+\* = solo dopo diagnosi di fibra e storia; “ok” non significa “a qualsiasi volume”.
+
+### Perché la scuola insiste su anatomia
+
+Perché l’errore tipico da esame/stage non è “non sapere il nome dello strato”, è **agire** sulla testa sbagliata: chimica su cute che non regge, o rinvio mancato. Memorizzare epidermide/derma serve se ti ricorda: *qui sotto c’è qualcosa di vivo*.
+
+
+## Sintesi da portare in laboratorio
+
+Prima di ogni chimica: **guardo la cute**, non solo la lunghezza. Se la cute non è integra, il servizio tecnico aspetta. Se ho un dubbio medico, non invento un nome di malattia: oriento.
+
+Frase da ricordare: *fibra morta, cute viva — la seconda ha diritto di veto.*
+
 ## Mini ripasso
 
 1. Dove nasce il capello?  
