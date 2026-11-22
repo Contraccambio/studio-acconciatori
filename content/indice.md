@@ -46,15 +46,15 @@ Le dispense sono pensate per essere **ripassate più volte**, non lette una volt
 
 | Dispensa | Contenuto | File |
 |----------|-----------|------|
-| Il capello | Anatomia, ciclo, tipologia, porosità, elasticità, pH, salute | [capello.md](capello.md) |
-| Tricologia e diagnosi | Analisi cute/capello, casi tipici, limiti del salone | [tricologia-diagnosi.md](tricologia-diagnosi.md) |
-| Shampoo | Funzione, tipi, tecnica, igiene, errori | [shampoo.md](shampoo.md) |
-| Balsamo e trattamenti | Differenze shampoo/balsamo/maschera, tempi, applicazione | [balsamo.md](balsamo.md) |
-| Tinta e colore | Pigmenti, ossidazione, livelli, riflessi, patch test | [tinta.md](tinta.md) |
+| Il capello | Struttura, ciclo, porosità, elasticità, pH, danno, linguaggio cliente | [capello.md](capello.md) |
+| Tricologia e diagnosi | Protocollo diagnosi, casi, quando rinviare al medico | [tricologia-diagnosi.md](tricologia-diagnosi.md) |
+| Shampoo | Tipi, tecnica, scenari cute, igiene, errori | [shampoo.md](shampoo.md) |
+| Balsamo e trattamenti | Condizionamento, tempi, scelta prodotto, post-servizio | [balsamo.md](balsamo.md) |
+| Tinta e colore | Teoria colore, formula, copribianco, correzione, patch test | [tinta.md](tinta.md) |
 | Trattamenti avanzati | Decolorazione, permanente, curativi, extension, parrucche | [trattamenti-avanzati.md](trattamenti-avanzati.md) |
-| Piega e styling | Phon, tool, prodotti, calore sicuro | [piega.md](piega.md) |
-| Taglio e acconciatura | Basi di taglio, maschile/barberia, acconciature | [taglio-acconciatura.md](taglio-acconciatura.md) |
-| Consulenza d'immagine | Comunicazione, armocromia, make-up di base (cenni) | [consulenza-immagine.md](consulenza-immagine.md) |
+| Piega e styling | Tool, prodotti, calore sicuro, tecniche per tipologia | [piega.md](piega.md) |
+| Taglio e acconciatura | Geometria, elevation, viso, femminile/maschile/barber | [taglio-acconciatura.md](taglio-acconciatura.md) |
+| Consulenza d'immagine | Ascolto, armocromia, script, proposta realistica | [consulenza-immagine.md](consulenza-immagine.md) |
 
 ---
 
